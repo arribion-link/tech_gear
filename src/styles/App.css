@@ -1,0 +1,24 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: baseline;
+}
+
+header nav ul {
+  display: flex;
+  gap: 3em;
+  list-style-type: none;
+}
+
+header nav {
+  display: flex;
+  gap: 4em;
+}
+
+.hero-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
