@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+/* @import 'tailwindcss'; */
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -26,3 +26,8 @@ img{
   width: 100%;
   height: auto;
 }
+
+section{
+  min-height: 60vh;
+}
+

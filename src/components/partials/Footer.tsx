@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <>
-      <header>
+      <footer>
         <div className="logo">techgear.</div>
         <nav>
           <ul>
@@ -13,7 +13,7 @@ const Footer = () => {
                   </ul>
                   <button></button>
         </nav>
-      </header>
+      </footer>
     </>
   );
 }

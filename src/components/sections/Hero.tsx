@@ -9,10 +9,9 @@ const Hero = () => {
             <h1>G502 HERO WIRELESS</h1>
             <h3>Logitech's High Performance Wireless Gamming Mouse</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adi pisicing elit. Deserunt
-              itaque culpa, totam accusamus maxime sunt quam dolorum autem omnis
-              impedit recusandae magni dolor aut, iure maiores iste quisquam
-              unde similique.
+              Lorem ipsum dolor sit amet consectetur adi <br />
+              pisicing elit. Deserunt
+              itaque culpa, totam accusamus maxime sunt
             </p>
             <p>USD 99.99</p>
             <div>

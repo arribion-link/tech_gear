@@ -8,12 +8,14 @@ const Services = () => {
         <p>We provide more than hight tech product!</p>
       </div>
       
-      <div className="services container flex p-8" >
+      <div className="services-container" >
         {
           services.map((service) => {
              return <div key={service.id} className="flex bg-gray-900 m-4">
                 <div>
-                  <img src={service.image} alt="" />
+                 <img
+                   src={service.image}
+                   alt="" className="service-image"/>
                 </div>
                 <div>
                   <h1>{service.name}</h1>

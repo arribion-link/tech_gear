@@ -1,7 +1,8 @@
 // src/components/Product.tsx
 import { FaArrowRight } from "react-icons/fa";
 import products from "../../data/product";
-import './product.css'
+import '../../assets/images/product-1.png'
+// import './product.css'
 // Ensure you have this CSS file
 
 const Product = () => {
@@ -27,6 +28,7 @@ const Product = () => {
               <img
                 src={product.image || "/assets/images/placeholder.png"}
                 alt={product.name}
+                className="product-image"
               />
               <h3>{product.name}</h3>
              {/* Debug: Show product ID */}

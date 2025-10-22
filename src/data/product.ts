@@ -1,4 +1,7 @@
 // src/data/product.ts
+import product1 from "../assets/images/product-1.png"
+import product2 from "../assets/images/product-2.png";
+import product3 from "../assets/images/product-3.png";
 interface Product {
   id: number;
   image: string;
@@ -8,18 +11,18 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    image: "/assets/images/product-1.png",
-    name: "Mouse",
+    image: product1,
+    name: "Gaming",
   },
   {
     id: 2,
-    image: "/assets/images/product-2.png",
-    name: "Digit-bit.ai Lite",
+    image: product2,
+    name: "Graphics",
   },
   {
     id: 3,
-    image: "/assets/images/product-3.png",
-    name: "Digit-bit.ai Ultra",
+    image: product3,
+    name: "Office",
   },
 ];
 

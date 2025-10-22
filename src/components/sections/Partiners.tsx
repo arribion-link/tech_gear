@@ -12,9 +12,9 @@ const Partiners = () => {
           members.map((member) => (
             <div key={member.id}>
               <div>
-                <img src={member.logo} alt="" />
+                <img src={member.logo} alt="" className="partiner-logo"/>
               </div>
-              <h2>{ member.name }</h2>
+              <h4>{ member.name }</h4>
             </div>
           ))
         }
